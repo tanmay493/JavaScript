@@ -243,7 +243,7 @@ for(let r=1;r<=4;r++){
 
     }
     document.write("<br>")
-}*/
+}
 for(let r=1;r<=5;r++){
     for(let c=1;c<=5;c++){
         if(r==1||r==5||c==1||c==5){
@@ -254,6 +254,20 @@ for(let r=1;r<=5;r++){
         else{
             document.write("&nbsp&nbsp&nbsp")
         }
+    }
+    document.write("<br>")
+}*/
+
+for(let r=1;r<=5;r++){
+    for(let c=1;c<=5;c++){
+        if((r==1 && c==1)||(r==2 && c==2)|| (r==3 && c==3)||(r==4 && c==4)||(r==5 && c==5)
+        || (r==1 && c==5)|| (r==2 && c==4)||(r==4 && c==2)||(r==5 && c==1)){
+    
+    document.write("* ")  
+  }
+  else{
+    document.write("&nbsp&nbsp&nbsp&nbsp&nbsp")
+  }
     }
     document.write("<br>")
 }
