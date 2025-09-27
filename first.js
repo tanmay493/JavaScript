@@ -256,7 +256,7 @@ for(let r=1;r<=5;r++){
         }
     }
     document.write("<br>")
-}*/
+}
 
 for(let r=1;r<=5;r++){
     for(let c=1;c<=5;c++){
@@ -271,3 +271,45 @@ for(let r=1;r<=5;r++){
     }
     document.write("<br>")
 }
+for(let r=1;r<=5;r++){
+    for(let c=1;c<=5;c++){
+        if((r==c)|| (r+c==6)){
+            document.write("*")
+        }else{
+            document.write("&nbsp&nbsp&nbsp")
+        }
+            
+        }
+        document.write("<br>")
+}
+
+
+function sum(){
+    let n1=10
+    let n2=20
+
+    console.log(n1+n2)
+}
+sum()
+
+function area(){
+    let l=parseInt(prompt("enter length"))
+    let b=parseInt(prompt("enter breadth"))
+    console.log("area of rectangle ="+l*b)
+}
+area()*/
+
+function print(){
+    let a=parseInt(prompt("enter no bw 20 and 1"))
+    if(a>=11 && a<=20){
+        for(let n=20;n>=1;n--){
+            console.log(n)
+        }
+    }
+    else{
+        for(let n=10;n>=a;n--){
+            console.log(n)
+        }
+    }
+}
+print()
