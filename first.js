@@ -297,7 +297,7 @@ function area(){
     let b=parseInt(prompt("enter breadth"))
     console.log("area of rectangle ="+l*b)
 }
-area()*/
+area()
 
 function print(){
     let a=parseInt(prompt("enter no bw 20 and 1"))
@@ -306,10 +306,32 @@ function print(){
             console.log(n)
         }
     }
-    else{
-        for(let n=10;n>=a;n--){
+    else if(n)
+    {
+        for(let n=10;n>=a;n--)
+            {
             console.log(n)
         }
     }
+    else{
+        console.log("invalid")
+    }
 }
 print()
+let a1=parseInt(prompt("enter a no"))
+function print(a){
+    if(a%2==0){
+        console.log("even")
+    }
+    else{
+        console.log("odd")
+    }
+}
+print(a1)*/
+let a=parseInt(prompt("enter a no for table"))
+function print(b){
+    for(let n=10;n>=1;n--){
+        console.log(n*b)
+    }
+}
+print(a)
