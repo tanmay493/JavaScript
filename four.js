@@ -13,3 +13,6 @@ a3.style.cssText="background-color:green;color:white;padding:12px"
 let a4=document.getElementById('10')
 a4.style.cssText="background-color:green;color:white;padding:12px"
 
+
+document.getElementById('img').src="rainbow.jpeg"
+
