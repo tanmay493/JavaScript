@@ -12,7 +12,7 @@ a.setAttribute('align','center')
 
 let b=document.getElementById('l1')
     b.innerHTML="<i> name </i>"
-    b.innerHTML=" name 2 "
+    b.innerHTML=" name 2 "//jo last me set karenge woh final hoga
     b.setAttribute('align','right')
 
  let c=document.body.setAttribute('bgcolor','yellow')

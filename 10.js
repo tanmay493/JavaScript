@@ -1,11 +1,11 @@
 function fun(){
-    let wrapper=document.querySelector('#container')
-    wrapper.classList.add('wrapper')
+    let w=document.querySelector('#container')
+    w.classList.add('wrapper')
 }
 
 function remov(){
-    let container=document.querySelector('#container')
-    container.classList.remove('wrapper')
+    let x=document.querySelector('#container')
+    x.classList.remove('wrapper')
 }
 function both(){
     let cn=document.querySelector('#container')
