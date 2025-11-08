@@ -1,10 +1,11 @@
-/*let ob={
+let ob={
     "full name":"TV",
     "age":23
 }
 
-console.log(ob["full name"])*/
+//console.log(ob["full name"])
 //console.log(ob."full name") wrong syntax
+console.log(ob)
 
 let student={
     stname :"don",

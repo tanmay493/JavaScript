@@ -6,3 +6,4 @@ function fun(){
    let x= document.querySelector('#h2')
    x.textContent=(num1+num2)
 }
+
