@@ -2,8 +2,10 @@
 let ar=[{"name":"tanmay","class":"js","age":14},{"name":"amit","class":"python","age":23}]
 let r=ar.filter((e)=>{
 
-    return e.age>=18
+   // return e.class=="js" || e.age>=18// dono array of object dega
+    // if and operator(&&)lagayenge toh kuchh bhi nahi display hoga
    //return e.name
+    return e.class
     
 })
 console.log(r)

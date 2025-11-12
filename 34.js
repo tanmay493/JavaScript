@@ -8,4 +8,4 @@ let name=localStorage.getItem("username")
 console.log(name)
 
 localStorage.removeItem("userage")
-localStorage.clear()
+//localStorage.clear()// pura local storage delete karne k liye
