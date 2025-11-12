@@ -8,7 +8,7 @@ async function access() {
     <td>${e.id}</td>
     <td>${e.title}</td>
     </tr>
- `).join("")
+ `).join("")//join me empty string isliye lagaya kyonki row ke baad gap ya synbol na aaye
     document.querySelector('#showdata').innerHTML=result
 
     
